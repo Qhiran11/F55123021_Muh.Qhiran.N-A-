@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .nav a:hover {
+    color: yellow;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+  }
+  
+  .bahasa {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  .bahasa-item {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .bahasa-item img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .bahasa-item p{
+    font-size: xx-large;
+  }
+  
+  
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+  }
+  
